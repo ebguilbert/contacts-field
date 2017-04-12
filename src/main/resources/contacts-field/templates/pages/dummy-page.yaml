@@ -1,0 +1,10 @@
+templateScript: /contacts-field/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: contacts-field:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: contacts-field:components/dummy-component
